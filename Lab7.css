@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+div{
+  margin-bottom: 20px;
+}
+input {
+  margin-right: 10px;
+  padding: 5px;
+/*  text inside keeps in distance from the border*/
+  width: 150px;
+}
+button {
+  padding: 5px 10px;
+}
+table {
+  margin-top: 20px auto;
+  border-collapse: collapse;
+/*remove the space between form and form, let border combine*/
+  width: 100%;
+}
+th, td {
+/*  th:表頭單元格, td: 普通單元格;*/
+  padding: 10px;
+  text-align: center;
+}
+
+tfoot {
+  font-weight: bold;
+}

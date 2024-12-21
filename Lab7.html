@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Lab7.css">
+  <title>Score Table</title>
+</head>
+<body>
+  <div>
+    <input type="number" id="math" placeholder="Math">
+    <input type="number" id="english" placeholder="English">
+    <button onclick="addRow()">Submit</button>
+  </div>
+  <table border="1" id="scoresTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Math</th>
+        <th>English</th>
+        <th>Average</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- rows will be dynamically added here by js -->
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Average</th>
+        <th id="mathAvg">0.00</th>
+        <th id="englishAvg">0.00</th>
+        <th id="totalAvg">0.00</th>
+      </tr>
+    </tfoot>
+  </table>
+  <script src="Lab7.js"></script>
+</body>
+</html>
